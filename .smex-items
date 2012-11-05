@@ -1,0 +1,18 @@
+
+;; ----- smex-history -----
+(
+ help
+ package-list-packages
+ package-install
+ cd
+ 5x5
+ ack
+ arp
+)
+
+;; ----- smex-data -----
+(
+ (package-install . 4)
+ (package-list-packages . 1)
+ (help . 1)
+)

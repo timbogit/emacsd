@@ -1,0 +1,57 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/tim/.emacs.d/" . "auto-save-list/")
+ ("/Users/tim/Documents/" . "workspace/")
+ ("/Users/tim/" . ".emacs.d/")
+ ("/Users/" . "tim/")
+ ("/Users/tim/Documents/workspace/" . "ClojureProgramming/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/tim/.emacs.d/"
+ "/Users/tim/Documents/workspace/ClojureProgramming/"
+ "/Users/tim/Documents/workspace/clojure/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "ch02-FP-repl-interactions.clj"
+ "README.md"
+ "embedded-repl.clj"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/tim/.emacs.d/" (20631 20309) "tramp" "site-lisp/" "places" "init.el~" "init.el" "elpa/" "backups/" "auto-save-list/" ".smex-items" ".DS_Store" "../" "./")
+
+ ("/Users/tim/.emacs.d/elpa/" (20631 20392) "yaml-mode-0.0.5/" "starter-kit-ruby-2.0.3/" "starter-kit-eshell-2.0.3/" "starter-kit-2.0.3/" "smex-2.0/" "ruby-mode-1.1/" "ruby-compilation-0.7/" "rinari-2.1/" "paredit-22/" "paredit-20/" "package.el" "magit-1.2.0/" "jump-2.0/" "javascript-2.2.1/" "inflections-1.0/" "inf-ruby-2.2.3/" "inf-ruby-2.1/" "ido-ubiquitous-1.5/" "idle-highlight-mode-1.1.2/" "findr-0.7/" "find-file-in-project-3.2/" "eshell-manual-0.0.2/" "css-mode-1.0/" "clojure-mode-1.7.1/" "builtin-packages~" "builtin-packages" "archives/" "archive-contents~" "archive-contents" "../" "./")
+
+ ("/Users/tim/.emacs.d/elpa/starter-kit-ruby-2.0.3/" (20631 20392) "starter-kit-ruby.elc" "starter-kit-ruby.el" "starter-kit-ruby-pkg.elc" "starter-kit-ruby-pkg.el" "starter-kit-ruby-autoloads.el" "../" "./")
+
+ ("/Users/tim/" (20631 20024) "watir.zip" "watir/" "untitled" "test.jpg" "Terminal Saved Output.txt" "Sites/" "share/" "ruby_motion/" "ResourceRules.plist" "Public/" "profiles.bin" "processed/" "preferences.plist~" "preferences.plist" "Pictures/" "PassKiera/" "Opera 7 Preferences.new" "NetBeansProjects/" "myProg.o" "myProg.m" "myProg" "Music/" "Movies/" "Memeo Backups/" "Library/" "KindletEclipsePlugin_test/" "kindledev.zip" "Kiera.jpg" "jersey-samples-1.0.3-project.zip" "jad158g/" "interview.zip" "Interview skeleton.txt" "interview/" "installvariables.properties" "install.sh~" "install.sh" "input.properties" "Info.plist" "Icon.png" "hello_sinatra.rb~" "hello_sinatra.rb" "hello.pl~" "growlctl.1" "growlctl" "glassfish/" "getMIMEPart.rb" "fetchmail.rb" "email_to_image_file.rb" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "depot_tools/" "dart/" "Currency Converter/" "com.apple.Preferences.plist" "BSim/" "bin/" "Applications/" "android-sdk-mac/" ".zshrc" ".xinitrc~" ".xinitrc.old~" ".xinitrc.old.1" ".xinitrc.old" ".Xcode/" ".Xauthority" ".wapi/" ".viminfo" ".Trash/" ".transmission/" ".swt/" ".subversion/" ".ssh/" ".sqlite_history" ".sh_history" ".rvmrc" ".rvm/" ".redcar/" ".pwlib_config/" ".profile.old" ".parallels_settings" ".ourTunes" ".org.eclipse.epp.usagedata.recording.userId" ".nx/" ".npm/" ".netbeans-registration/" ".netbeans-derby/" ".netbeans/" ".net.sf.jadclipse/" ".mysql_history" ".mplayer/" ".mozilla/" ".MacOSX/" ".m2/" ".lesshst" ".lein/" ".jruby/" ".jline-reply.history" ".javafx_eula_accepted" ".irb_history" ".irb-history" ".ido.last~" ".ido.last" ".heroku/" ".gnupg/" ".gitconfig" ".gimp-1.2/" ".gems" ".gem/" ".gdb_history" ".gclient" ".fontconfig/" ".fishsrv.pl" ".fastri-index" ".emacs.d/" ".eclipse_keyring" ".eclipse/" ".ec2/" ".dvdcss/" ".DS_Store" ".dropbox/" ".cvspass" ".cups/" ".cisco/" ".CFUserTextEncoding" ".bzr.log" ".bashrc" ".bash_profile~" ".bash_profile" ".bash_login~" ".bash_login" ".bash_history" ".aws/" ".asadmintruststore" ".asadminpass" ".appletviewer" ".anyconnect" ".android/" ".adobe/" "#.xinitrc.old#" "../" "./")
+
+ ("/Users/tim/.emacs.d/auto-save-list/" (20631 19949) ".saves-94988-004007-LS-MBP~" ".saves-583-tim-schmelmers-powerbook-g4-15.local~" ".saves-576-tim-schmelmers-powerbook-g4-15.local~" ".saves-26665-tim-schmelmers-macbook.local~" "../" "./")
+
+ ("/Users/tim/ruby_motion/" (20393 57071) "studio-bonus-tracks/" "RubyMotionSamples/" "CalcGame/" "BubbleWrap/" ".DS_Store" "../" "./")
+
+ ("/Users/tim/ruby_motion/RubyMotionSamples/" (20405 43498) "Tweets/" "Trollify/" "Timer/" "README.rdoc" "PaintHTML/" "Paint/" "Mustache/" "Locations/" "HelloGL/" "Hello/" "GestureTable/" "Fonts/" "Beers/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/tim/ruby_motion/RubyMotionSamples/PaintHTML/" (20405 43498) "spec/" "resources/" "README" "Rakefile" "build/" "app/" ".repl_history" "../" "./")
+
+ ("/Users/tim/Documents/workspace/ClojureProgramming/" (20612 42225) "repl-port" "README.md" "epl-v10.html" "ch20-nextsteps-repl-interactions.clj" "ch17-webapp-maven/" "ch17-webapp-lein/" "ch16-web-repl-interactions.clj" "ch16-web-leiningen/" "ch15-couchdb-repl-interactions.clj" "ch15-couchdb/" "ch14-rdbms-repl-interactions.clj" "ch14-rdbms/" "ch13-testing-repl-interactions.clj" "ch12-patterns-repl-interactions.clj" "ch12-aspectj/" "ch11-maths-repl-interactions.clj" "ch11-mandelbrot/" "ch10-REPL-oriented-repl-interactions.clj" "ch09-interop-repl-interactions.clj" "ch09-interop/" "ch09-gen-class/" "ch09-annotations/" "ch08-projects-repl-interactions.clj" "ch08-maven/" "ch08-leiningen/" "ch08-lein-mixed-source/" "ch07-multimethods-repl-interactions.clj" "ch06-datatypes-repl-interactions.clj" "ch05-macros-repl-interactions.clj" "ch04-concurrency-webcrawler/" "ch04-concurrency-repl-interactions.clj" "ch04-concurrency-game/" "ch03-game-of-life/" "ch03-collections-repl-interactions.clj" "ch03-array-set/" "ch02-FP-repl-interactions.clj" "ch01-welcome-repl-interactions.clj" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/" (20496 53675) "tim/" "Shared/" "Guest/" ".localized" "../" "./")
+
+ ("/Users/tim/Documents/" (20545 15527) "workspace/" "Work (MPIA)/" "WINXP_EN.iso" "Tucson11-2005.zip" "Transcript of courses.pdf" "TimSkype.jpg" "Tim_Schmelmer.ddictatelicense" "tim.ddictateprofile/" "text.txt" "ST Integration/" "social.zip" "social/" "schmelmerAtMPIApub.txt" "schmelmer.asc" "Scanned Image 100190012.pdf" "Scanned Image 100190000.pdf" "Saved iCal Attachments/" "Ruby/" "RDC Connections/" "QuickBooks/" "preverify problems.txt" "Prediploma (German).pdf" "PHP book/" "Perl:JavaScript books/" "netgear.cfg" "Microsoft User Data/" "Mavis Beacon User Guide.pdf" "Master Certificate.pdf" "madlib.rb" "LetterOfRecommendationMPIA.doc" "Java6Tutorial/" "J2ME development/" "iPhone Development/" "InstrumentTelescopeInterface_v1.6.pdf" "ImpulsiveBuyProject/" "Heirat/" "Hamburg20051111-20051113.zip" "FacebookPuzzles/" "Domain.sites/" "DNS addresses.rtf" "DEN-to-DUS_20120301-20120305.pdf" "CocoaAndObjectiveC/" "Avaya/" "ArbeitszeugnisMPIA.doc" "Aptana Rubles/" "AntwortBerneburgRenovierung.doc" "Amazon Music Importer/" "Amazon MP3 Uploader/" "Amazon MP3/" "Admin/" "ABB/" ".parallels-vm-directory/" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/tim/Documents/workspace/" (20612 42185) "WatirWebdriverTest/" "vital_testing/" "valet_parking.zip" "valet_parking/" "Trunk/" "test.clj~" "social_dm/" "social_crm.zip" "social_crm/" "social_2011-04-30.zip" "social/" "SinatraTest/" "sample_blog.zip" "sample_blog/" "repl-port" "Rabib/" "preferences/" "on-site.zip" "on-site.v0.1.zip" "on-site/" "modcloth/" "Logger/" "linkr/" "lightrail/" "interview/" "HelloWorldWithTextArea/" "HelloAndroidWorld/" "game_of_life.rb" "FBAdecRedesign/" "FBAdecOld/" "FBAdec/" "dpir_code/" "depot.zip" "depot/" "demo_3.1.0/" "demo/" "delicious-rails/" "DeckOfCards/" "ClojureProgramming/" "clojure/" "BSim/" "bozeman-hackweek/" "bozeman-api-hack-r3/" "best_of_ruby_quiz-code/" "BehaviorAI/" "advanced_rails_recipes-code.zip" "advanced_rails_recipes-code/" "__MACOSX/" ".metadata/" ".DS_Store" "../" "./")
+
+ ("/Users/tim/Documents/workspace/clojure/" (20612 42381) "test.clj" "repl-port" "embedded-repl.clj" ".#embedded-repl.clj" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
