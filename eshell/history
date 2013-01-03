@@ -1,0 +1,2 @@
+cd ../../test/functional/purchases_controller_test.rb -n /mini/
+ruby -I ../../test ../../test/functional/purchases_controller_test.rb -n /mini/

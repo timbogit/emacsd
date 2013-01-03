@@ -66,7 +66,10 @@
 ;; Add in your own as you wish:
 (defvar my-packages '(starter-kit starter-kit-eshell starter-kit-ruby clojure-mode)
   "A list of packages to ensure are installed at launch.")
-
 (dolist (p my-packages)
   (when (not (package-installed-p p))
     (package-install p)))
+
+;; Switch off the automatic insertion of the # -*- coding: utf-8 -*-
+;; on top of Ruby mode files
+(setq ruby-insert-encoding-magic-comment nil)

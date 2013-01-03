@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- help
- package-list-packages
- package-install
- cd
- 5x5
- ack
- arp
+ goto-line
+ whitespace-cleanup
+ comment-or-uncomment-region
+ query-replace
+ indent-region
+ insert-file
+ color-theme-solarized-light
 )
 
 ;; ----- smex-data -----
@@ -15,4 +15,21 @@
  (package-install . 4)
  (package-list-packages . 1)
  (help . 1)
+ (color-theme-print . 1)
+ (color-theme-solarized-light . 13)
+ (ido-complete . 3)
+ (ack . 3)
+ (goto-line . 17)
+ (indent-region . 4)
+ (whitespace-mode . 1)
+ (undo . 8)
+ (whitespace-cleanup . 22)
+ (do-auto-save . 5)
+ (query-replace . 94)
+ (nav-open-file . 1)
+ (write-file . 1)
+ (comment-region . 3)
+ (uncomment-region . 2)
+ (insert-file . 10)
+ (comment-or-uncomment-region . 10)
 )
