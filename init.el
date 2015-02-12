@@ -31,10 +31,7 @@
 (when (not package-archive-contents)
   (package-refresh-contents))
 ;; Add in your own as you wish:
-(defvar my-packages '(starter-kit 
-                      starter-kit-eshell 
-                      starter-kit-ruby
-                      better-defaults
+(defvar my-packages '(better-defaults
                       clojure-mode
                       cider
                       company
@@ -75,7 +72,7 @@ your recently and most frequently used commands.")
 
 (global-company-mode)
 (projectile-global-mode)
- 
+
 (add-hook 'clojure-mode-hook 'paredit-mode)
 (add-hook 'cider-repl-mode-hook 'paredit-mode)
  
@@ -91,9 +88,6 @@ your recently and most frequently used commands.")
 (add-hook 'yaml-mode-hook
      '(lambda ()
           (define-key yaml-mode-map "\C-m" 'newline-and-indent)))
-
-;; adding ack
-(require 'ack)
 
 ;; neotree - like NERDtree for emacs
 ;; Optional: set up a quick key to toggle nav
