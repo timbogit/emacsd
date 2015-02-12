@@ -24,7 +24,8 @@
 ;;; add ClojureMode major mode
 (require 'package)
 (add-to-list 'package-archives
-              '("melpa-stable" . "http://stable.melpa.org/packages/") t)
+             '("melpa-stable" . "http://stable.melpa.org/packages/") t)
+(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
 (package-initialize)
  
 (when (not package-archive-contents)
@@ -41,8 +42,9 @@
                       exec-path-from-shell
                       projectile
                       flx-ido
+                      smex
                       magit
-                      ack
+                      ack-and-a-half
                       yaml-mode
                       solarized-theme
                       neotree)
@@ -59,7 +61,18 @@
 (flx-ido-mode t)
 (setq ido-enable-flex-matching t)
 (setq ido-use-faces nil)
- 
+;;; Smex
+(autoload 'smex "smex"
+    "Smex is a M-x enhancement for Emacs, it provides a convenient interface to
+your recently and most frequently used commands.")
+(global-set-key (kbd "M-x") 'smex)
+;;; Ack-And-A-Half
+(require 'ack-and-a-half)
+(defalias 'ack 'ack-and-a-half)
+(defalias 'ack-same 'ack-and-a-half-same)
+(defalias 'ack-find-file 'ack-and-a-half-find-file)
+(defalias 'ack-find-file-same 'ack-and-a-half-find-file-same)
+
 (global-company-mode)
 (projectile-global-mode)
  
