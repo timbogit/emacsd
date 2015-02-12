@@ -1,35 +1,53 @@
 
 ;; ----- smex-history -----
 (
- goto-line
- whitespace-cleanup
- comment-or-uncomment-region
- query-replace
- indent-region
- insert-file
- color-theme-solarized-light
+ eval-buffer
+ package-refresh-contents
+ package-install
+ comment-region
+ nav
+ undo
+ shell
 )
 
 ;; ----- smex-data -----
 (
- (package-install . 4)
+ (package-install . 7)
  (package-list-packages . 1)
  (help . 1)
  (color-theme-print . 1)
- (color-theme-solarized-light . 13)
+ (color-theme-solarized-light . 6)
  (ido-complete . 3)
- (ack . 3)
- (goto-line . 17)
- (indent-region . 4)
+ (ack . 8)
+ (goto-line . 9)
+ (indent-region . 2)
  (whitespace-mode . 1)
- (undo . 8)
- (whitespace-cleanup . 22)
+ (undo . 18)
+ (whitespace-cleanup . 7)
  (do-auto-save . 5)
- (query-replace . 94)
+ (query-replace . 16)
  (nav-open-file . 1)
- (write-file . 1)
- (comment-region . 3)
- (uncomment-region . 2)
- (insert-file . 10)
- (comment-or-uncomment-region . 10)
+ (run-lisp . 8)
+ (backward-page . 1)
+ (inferior-lisp . 1)
+ (end-of-buffer . 10)
+ (lisp-interaction-mode . 2)
+ (beginning-of-buffer . 6)
+ (insert-file . 1)
+ (clojure-mode . 4)
+ (eval-expression . 1)
+ (clojure-enable-slime-on-existing-buffers . 3)
+ (display-time-mode . 1)
+ (kill-buffer . 2)
+ (dired-tree-up . 1)
+ (nav-mode . 4)
+ (delete-file . 2)
+ (nav-find-files . 1)
+ (package-install-file . 1)
+ (eval-buffer . 17)
+ (package-refresh-contents . 6)
+ (nav . 3)
+ (cider-jack-in . 7)
+ (shell . 1)
+ (comment-region . 2)
 )
